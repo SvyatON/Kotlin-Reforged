@@ -5,11 +5,13 @@ modLoader="kotlinforforge"
 loaderVersion="[7,8)"
 # License is REQUIRED after 1.16
 license='LGPL-2.1'
+issueTrackerURL="https://github.com/SvyatON/Kotlin-Reforged/issues"
 
 [[mods]]
 modId="kotlin_reforged"
 version="${kff_version}"
 displayName="Kotlin Reforged"
+displayURL="https://github.com/SvyatON/Kotlin-Reforged"
 logoFile="kotlinforforge_icon.png"
 credits="thedarkcolour and his \"minions\""
 authors="thedarkcolour, SvyatON"
