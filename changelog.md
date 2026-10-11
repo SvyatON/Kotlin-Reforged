@@ -1,6 +1,6 @@
 Kotlin Reforged modifications by SvyatON, 2026-10-11.
 
-## Kotlin Reforged 7.0.0 (unreleased)
+## Kotlin Reforged 7.0.0
 
 - Ported the Forge language loader and utilities to EventBus 7 for Minecraft 1.21.6–26.3.
 - Added support for ordinary mod constructors, Kotlin object/static/file/multifile subscribers, side filtering and per-handler bus routing.
