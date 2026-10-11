@@ -1,0 +1,39 @@
+{
+  "libraries": [
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-serialization-cbor-jvm",
+      "version": "1.11.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor-jvm/1.11.0/kotlinx-serialization-cbor-jvm-1.11.0.jar",
+      "sha512": "d2818cd47d84a1c71027bdcb087c7cdb08386d9a0e5b9d2abc6e4b0c4e553d94ad5ca9dadb9c4a092940de8e9ed2f4b83ded1bb111758646381a3eaa891c7ef4"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "atomicfu-jvm",
+      "version": "0.33.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/atomicfu-jvm/0.33.0/atomicfu-jvm-0.33.0.jar",
+      "sha512": "7a41603bcb0eaf6d8e4fc7531f70860f1d0cc719a0abb34b65d8bfd1bc2e14cf7ed810c11a1f1709407520121972769744a108aab64ea9995e03f9cb544b8f2f"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-datetime-jvm",
+      "version": "0.8.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-jvm/0.8.0/kotlinx-datetime-jvm-0.8.0.jar",
+      "sha512": "b77a9a025cf2b1dd46e7b9aa0e9205f0d965a75ca96338afbf3de01a7cea400e1becd69d321867abcfc380e9c9d53f34eedffe2e8947772fe4b2cdfd16d6eb79"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-io-core-jvm",
+      "version": "0.9.1",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-io-core-jvm/0.9.1/kotlinx-io-core-jvm-0.9.1.jar",
+      "sha512": "b444e72394252c05f33f00453077912ea30a009c77b71edb8e681d5936acc447010aaa4fcf7960f1b46103100f98bdfaaf345e485e614de3ab554f900dcbd5c3"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-io-bytestring-jvm",
+      "version": "0.9.1",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-io-bytestring-jvm/0.9.1/kotlinx-io-bytestring-jvm-0.9.1.jar",
+      "sha512": "40f6897f8f3c2450c1fa9c0d7c8cac23fb3534aedfdc8d78192a151f9c709726fb7190e0c3c9e3237b0317927005ac7102bd80d6f9eee681d8cb25bb157d7eb4"
+    }
+  ]
+}

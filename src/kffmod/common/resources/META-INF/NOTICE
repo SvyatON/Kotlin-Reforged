@@ -1,0 +1,54 @@
+Kotlin Reforged
+An unofficial modification of Kotlin for Forge by thedarkcolour.
+Forge port and modifications: SvyatON, 2026-10-11.
+Kotlin Reforged adapter code is distributed under GNU LGPL version 2.1;
+see LICENSE. Third-party libraries retain their respective licenses.
+The LGPL adapter modules are available separately as the nested kfflang,
+kfflib and kffmod JARs under META-INF/jarjar and through the local Maven build.
+
+Bundled Kotlin JVM libraries contain code derived from:
+- GWT: Copyright (C) 2007-08 Google Inc. (Apache License 2.0).
+- Guava: Copyright (C) 2011 The Guava Authors (Apache License 2.0).
+- Protocol Buffers: Copyright 2008 Google Inc. (BSD; see licenses).
+- ThreeTen Backport: Stephen Colebourne and Michael Nascimento Santos
+  (BSD 3-Clause; see licenses).
+- Boost special math functions: Copyright Eric Ford & Hubert Holin 2001
+  (Boost Software License 1.0; see licenses).
+
+The following upstream notices are reproduced verbatim:
+
+=========================================================================
+==  NOTICE file corresponding to the section 4 d of                    ==
+==  the Apache License, Version 2.0,                                   ==
+==  in this case for the kotlinx.coroutines library.                   ==
+=========================================================================
+
+kotlinx.coroutines library.
+Copyright 2016-2025 JetBrains s.r.o and contributors
+
+   =========================================================================
+   ==  NOTICE file corresponding to the section 4 d of                    ==
+   ==  the Apache License, Version 2.0,                                   ==
+   ==  in this case for the kotlix.serialization library.                 ==
+   =========================================================================
+
+   kotlinx.serialization library.
+   Copyright 2017-2019 JetBrains s.r.o and respective authors and developers
+
+   =========================================================================
+   ==  NOTICE file corresponding to the section 4 d of                    ==
+   ==  the Apache License, Version 2.0,                                   ==
+   ==  in this case for the kotlix.atomicfu library.                      ==
+   =========================================================================
+
+   kotlinx.atoimcfu library.
+   Copyright 2017 JetBrains s.r.o and respective authors and developers
+
+   =========================================================================
+   ==  NOTICE file corresponding to the section 4 d of                    ==
+   ==  the Apache License, Version 2.0,                                   ==
+   ==  in this case for the kotlinx-io library.                            ==
+   =========================================================================
+
+   kotlinx-io library.
+   Copyright 2017-2023 JetBrains s.r.o and respective authors and developers

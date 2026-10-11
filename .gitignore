@@ -1,0 +1,59 @@
+# Modified for Kotlin Reforged by SvyatON, 2026-10-11.
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+.kotlin
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+website
+runs
+
+repo
+
+# README tester
+.github/readmetester/.gradle
+.github/readmetester/build*
+.github/readmetester/gradle
+.github/readmetester/gradlew
+.github/readmetester/src/main/resources/META-INF/mods.toml
+
+*.log
+__pycache__/
+.tools/
+Готовые моды/
+
+/releases/
+/dist/
+/artifacts/
+*-results.json
+*.jar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.class
+!gradle/wrapper/gradle-wrapper.jar
+
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+local.properties

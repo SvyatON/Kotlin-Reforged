@@ -1,0 +1,33 @@
+# Modified for Kotlin Reforged by SvyatON, 2026-10-11.
+# Make sure this is set to "kotlinforforge"
+modLoader="kotlinforforge"
+# Make sure this is set to the appropriate version range
+loaderVersion="[7,8)"
+# License is REQUIRED after 1.16
+license='LGPL-2.1'
+
+[[mods]]
+modId="kotlin_reforged"
+version="${kff_version}"
+displayName="Kotlin Reforged"
+logoFile="kotlinforforge_icon.png"
+credits="thedarkcolour and his \"minions\""
+authors="thedarkcolour, SvyatON"
+description='''
+Makes Kotlin forge-friendly
+'''
+[[dependencies.kotlin_reforged]]
+modId="minecraft"
+mandatory=true
+type="required"
+versionRange="[${min_mc_version},${unsupported_mc_version})"
+ordering="NONE"
+side="BOTH"
+[[dependencies.kotlin_reforged]]
+modId="forge"
+mandatory=true
+versionRange="[56,)"
+ordering="NONE"
+side="BOTH"
+[modproperties.kotlin_reforged]
+catalogueImageIcon="kotlinforforge_icon.png"
