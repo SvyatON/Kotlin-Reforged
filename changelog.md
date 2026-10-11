@@ -8,7 +8,6 @@ Kotlin Reforged modifications by SvyatON, 2026-10-11.
 - Bundled Kotlin 2.4.0, coroutines 1.11.0, serialization core/JSON/CBOR 1.11.0, atomicfu 0.33.0, datetime 0.8.0 and kotlinx-io core/ByteString 0.9.1.
 - Added local Maven publications, sources, pinned runtime digests and independent compatibility probes.
 - Set the name to Kotlin Reforged, the mod ID to `kotlin_reforged`, and the authors to thedarkcolour and SvyatON.
-- Verified 40 client/server mod-loading launches across 20 Forge profiles.
 
 ### Upstream history
 
