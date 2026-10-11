@@ -13,7 +13,7 @@ def write_entry(archive, name, data):
     archive.writestr(entry, data)
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "7.0.0+1.21.6-26.3-reforged"
+VERSION = "7.0.0+1.21.6-26.3"
 runtime = json.loads((ROOT / "gradle/kotlin-runtime.json").read_text())
 additional_libraries = json.loads((ROOT / "gradle/additional-kotlin-libraries.json").read_text())["libraries"]
 additional_cache = ROOT / "build/additional-kotlin-libraries"
@@ -99,12 +99,12 @@ with zipfile.ZipFile(output / ("kotlinforforge-" + VERSION + "-all.jar")) as com
 
 install_output = ROOT / "Готовые моды"
 install_output.mkdir(exist_ok=True)
-install_jar = install_output / (VERSION.removesuffix("-reforged") + ".jar")
+install_jar = install_output / (VERSION + ".jar")
 shutil.copy2(output / ("kotlinforforge-" + VERSION + "-all.jar"), install_jar)
 shutil.copy2(ROOT / "src/kffmod/common/resources/kotlinforforge_icon.png", install_output / "kotlinforforge_icon.png")
 print(install_jar)
 
-source_archive = output / (VERSION.removesuffix("-reforged") + "-sources.zip")
+source_archive = output / (VERSION + "-sources.zip")
 source_files = []
 for directory in ("src", "gradle", ".github"):
     for path in (ROOT / directory).rglob("*"):
@@ -118,7 +118,7 @@ with zipfile.ZipFile(source_archive, "w", zipfile.ZIP_DEFLATED, compresslevel=9)
 with zipfile.ZipFile(source_archive) as archive:
     assert archive.testzip() is None
 print(source_archive)
-source_jar_name = VERSION.removesuffix("-reforged") + "-sources.jar"
+source_jar_name = VERSION + "-sources.jar"
 shutil.copy2(source_archive, output / source_jar_name)
 source_jar = install_output / source_jar_name
 shutil.copy2(source_archive, source_jar)

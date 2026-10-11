@@ -6,7 +6,7 @@ plugins {
     `maven-publish`
     id("org.jetbrains.kotlin.jvm") version "2.4.0"
 }
-version = "7.0.0+1.21.6-26.3-reforged"
+version = "7.0.0+1.21.6-26.3"
 group = "thedarkcolour"
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach { compilerOptions.jvmTarget.set(JvmTarget.JVM_21) }

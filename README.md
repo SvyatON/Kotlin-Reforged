@@ -28,7 +28,7 @@ python package-forge.py
 
 On Linux or macOS, use `./gradlew buildForge`. The installation JAR is written to `Готовые моды/`. Build outputs and local tools are excluded from Git.
 
-To generate the local Maven repository in `build/maven`, run `./gradlew publish` after packaging. The coordinates are `thedarkcolour:kotlinforforge:7.0.0+1.21.6-26.3-reforged`.
+To generate the local Maven repository in `build/maven`, run `./gradlew publish` after packaging. The coordinates are `thedarkcolour:kotlinforforge:7.0.0+1.21.6-26.3`.
 
 See [changelog](changelog.md) and [LICENSE](LICENSE). Bundled library notices and licenses are included in the mod resources.
 
