@@ -102,7 +102,6 @@ install_output = ROOT / "releases"
 install_output.mkdir(exist_ok=True)
 install_jar = install_output / (FILE_NAME + ".jar")
 shutil.copy2(output / ("kotlinforforge-" + VERSION + "-all.jar"), install_jar)
-shutil.copy2(ROOT / "src/kffmod/common/resources/kotlinforforge_icon.png", install_output / "kotlinforforge_icon.png")
 print(install_jar)
 
 source_archive = output / (FILE_NAME + "-sources.zip")
