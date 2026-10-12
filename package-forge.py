@@ -98,7 +98,7 @@ with zipfile.ZipFile(output / ("kotlinforforge-" + VERSION + "-all.jar")) as com
             if item["identifier"]["group"] == "thedarkcolour":
                 assert not any(n.startswith(("net/minecraft/", "net/minecraftforge/")) and n.endswith(".class") for n in module.namelist())
 
-install_output = ROOT / "Готовые моды"
+install_output = ROOT / "releases"
 install_output.mkdir(exist_ok=True)
 install_jar = install_output / (FILE_NAME + ".jar")
 shutil.copy2(output / ("kotlinforforge-" + VERSION + "-all.jar"), install_jar)

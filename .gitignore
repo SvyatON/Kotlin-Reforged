@@ -1,4 +1,4 @@
-# Modified for Kotlin Reforged by SvyatON, 2026-10-11.
+# Modified for Kotlin Reforged by SvyatON, 2026-10-12.
 # eclipse
 bin
 *.launch
@@ -37,7 +37,6 @@ repo
 *.log
 __pycache__/
 .tools/
-Готовые моды/
 
 /releases/
 /dist/
